@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca223416-b74b-4fbd-a011-c9b3fdb50924" name="Changes" comment="" />
+    <list default="true" id="ca223416-b74b-4fbd-a011-c9b3fdb50924" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/prod.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
