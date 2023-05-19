@@ -63,12 +63,13 @@ LANGUAGES = [
     ('pl-pl', gettext_noop('Poland Polish')),
     ('ru', gettext_noop('Russian')),
     ('sv', gettext_noop('Swedish')),
+    ('uk', gettext_noop('Ukraine')),
     ('tr', gettext_noop('Turkish')),
     ('zh-hans', gettext_noop('Simplified Chinese')),
 ]
 
 # Default language
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'uk'
 
 # Append the MD5 hash of the file’s content to the filename
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
@@ -129,3 +130,9 @@ ST_SITE_URL = 'https://example.com/'
 # If using elasticsearch, this fixes:
 # https://github.com/django-haystack/django-haystack/issues/1057
 ELASTICSEARCH_DEFAULT_NGRAM_SEARCH_ANALYZER = 'standard'
+
+
+# Update database configuration from $DATABASE_URL.
+import dj_database_url
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
