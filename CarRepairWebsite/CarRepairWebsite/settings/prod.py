@@ -39,9 +39,9 @@ INSTALLED_APPS.extend([
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ejizehuj',
-        'USER': 'ejizehuj',
-        'PASSWORD': 'dPXvSDJQJ0-ttiuIRgZXMQCDMhHi4QdR',
+        'NAME': 'kitcbkca',
+        'USER': 'kitcbkca',
+        'PASSWORD': 'kYtQzezpSvGF4PwOsHRpXU0uBX-csZUJ',
         'HOST': 'dumbo.db.elephantsql.com',
         'PORT': '5432',
     }
@@ -130,9 +130,3 @@ ST_SITE_URL = 'https://example.com/'
 # If using elasticsearch, this fixes:
 # https://github.com/django-haystack/django-haystack/issues/1057
 ELASTICSEARCH_DEFAULT_NGRAM_SEARCH_ANALYZER = 'standard'
-
-
-# Update database configuration from $DATABASE_URL.
-import dj_database_url
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
