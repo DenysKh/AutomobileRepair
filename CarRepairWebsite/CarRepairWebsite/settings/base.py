@@ -17,6 +17,7 @@ import os
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 # Application definition
@@ -59,6 +60,8 @@ INSTALLED_APPS = [
 
     'djconfig',
     'haystack',
+
+    'Website',
 ]
 
 MIDDLEWARE = [
@@ -159,8 +162,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_FILE_STORAGE = 'spirit.core.storage.OverwriteFileSystemStorage'
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Send an email to the site admins
 # on error when DEBUG=False,

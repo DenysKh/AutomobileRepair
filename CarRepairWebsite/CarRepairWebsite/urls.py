@@ -11,13 +11,14 @@ import spirit.urls
 from django.contrib.auth.decorators import login_required
 admin.site.login = login_required(admin.site.login)
 
-
 urlpatterns = [
-    re_path(r'^', include(spirit.urls)),
+    re_path(r'^forum/', include(spirit.urls)),
 
     # This is the default django admin
     # it's not needed to use Spirit
     re_path(r'^admin/', admin.site.urls),
+
+    re_path(r'^', include("Website.urls")),
 ]
 
 if settings.DEBUG:
