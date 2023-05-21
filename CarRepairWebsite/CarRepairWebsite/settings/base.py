@@ -23,6 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -62,6 +64,8 @@ INSTALLED_APPS = [
     'haystack',
 
     'Website',
+    "debug_toolbar",
+
 ]
 
 MIDDLEWARE = [
@@ -81,6 +85,7 @@ MIDDLEWARE = [
     'spirit.user.middleware.ActiveUserMiddleware',
     'spirit.core.middleware.PrivateForumMiddleware',
     'djconfig.middleware.DjConfigMiddleware',
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
 TEMPLATES = [
@@ -144,7 +149,7 @@ LANGUAGE_CODE = 'uk'
 
 TIME_ZONE = 'UTC'
 
-USE_I18N = True
+USE_I18N = False
 
 USE_L10N = True
 

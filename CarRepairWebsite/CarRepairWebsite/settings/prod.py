@@ -10,7 +10,7 @@ from .base import *
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # https://docs.djangoproject.com/en/3.2/ref/settings/#admins
 ADMINS = (('John', 'john@example.com'), )
@@ -67,13 +67,14 @@ LANGUAGES = [
     ('pl-pl', gettext_noop('Poland Polish')),
     ('ru', gettext_noop('Russian')),
     ('sv', gettext_noop('Swedish')),
-    ('uk', gettext_noop('Ukraine')),
+    ('uk', gettext_noop('Ukrainian')),
     ('tr', gettext_noop('Turkish')),
     ('zh-hans', gettext_noop('Simplified Chinese')),
 ]
 
 # Default language
 LANGUAGE_CODE = 'uk'
+
 
 # Append the MD5 hash of the file’s content to the filename
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
@@ -139,3 +140,10 @@ ELASTICSEARCH_DEFAULT_NGRAM_SEARCH_ANALYZER = 'standard'
 if not DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
+
+INTERNAL_IPS = [
+    # ...
+    "127.0.0.1",
+    # ...
+]

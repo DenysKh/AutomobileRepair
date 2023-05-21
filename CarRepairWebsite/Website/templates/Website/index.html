@@ -4,520 +4,498 @@
 <html>
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <link rel="icon" href="{% static 'Website/images/fevicon.png' %}"/>
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <!-- Basic -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Site Metas -->
+    <link rel="icon" href="{% static 'Website/images/fevicon.png' %}"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
-  <title>АвтоМайстер</title>
+    <title>АвтоМайстер</title>
 
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="{% static 'Website/css/bootstrap.css' %}" />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'Website/css/bootstrap.css' %}"/>
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-  <!-- font awesome style -->
-  <link href="{% static 'Website/css/font-awesome.min.css' %}" rel="stylesheet" />
+    <!-- font awesome style -->
+    <link href="{% static 'Website/css/font-awesome.min.css' %}" rel="stylesheet"/>
 
-  <!-- Custom styles for this template -->
-  <link href="{% static 'Website/css/style.css' %}" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="{% static 'Website/css/responsive.css' %}" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="{% static 'Website/css/style.css' %}" rel="stylesheet"/>
+    <!-- responsive style -->
+    <link href="{% static 'Website/css/responsive.css' %}" rel="stylesheet"/>
 
 </head>
 
 <body>
 
-  <!-- header section strats -->
-  <header class="header_section">
+<!-- header section strats -->
+<header class="header_section">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="{% url 'website:index' %}">
-          <span>АвтоМайстер</span>
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""> </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav  ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="{% url 'website:index' %}">Головна <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Про нас</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#service">Послуги</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#why">Чому ми</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Зв'язатись з нами</a>
-            </li>
-          </ul>
-          <div class="quote_btn-container">
-            <form class="form-inline">
-              <div class="btn nav_search-btn"></div>
-            </form>
-            <a href="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                ТЕЛ : +38(050) 435-20-40
-              </span>
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="{% url 'website:index' %}">
+                <span>АвтоМайстер</span>
             </a>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- end header section -->
 
-  <!-- slider section -->
-  <section class="slider_section" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'website:index' %}">Головна <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Про нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Послуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why">Чому ми</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Зв'язатись з нами</a>
+                    </li>
+                </ul>
+                <div class="quote_btn-container">
+                    <form class="form-inline">
+                        <div class="btn nav_search-btn"></div>
+                    </form>
+                    <a href="">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>
+                            ТЕЛ : +38(050) 435-20-40
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- end header section -->
+
+<!-- slider section -->
+<section class="slider_section">
     <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
+        <div class="carousel-inner">
 
-        <div class="carousel-item active">
-          <div class="container ">
-            <div class="row">
-              <div class="col-md-6 col-lg-5">
-                <div class="detail-box">
-                  <h1>
-                    Ремонт та технічне обслуговування
-                  </h1>
-                  <p style="text-align: justify">
-                     Ми пропонуємо повний спектр надійних та професійних послуг для вашого автомобіля,
-                      включаючи експертний ремонт, ретельне обслуговування та надійну підтримку на кожному етапі </p>
-                  <div class="btn-box">
-                    <a href="#contact" class="btn-1">
-                      Зв'яжіться з нами
-                    </a>
-                  </div>
+            <div class="carousel-item active">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="detail-box">
+                                <h1>
+                                    Ремонт та технічне обслуговування
+                                </h1>
+                                <p style="text-align: justify">
+                                    Ми пропонуємо повний спектр надійних та професійних послуг для вашого автомобіля,
+                                    включаючи експертний ремонт, ретельне обслуговування та надійну підтримку на кожному
+                                    етапі </p>
+                                <div class="btn-box">
+                                    <a href="#contact" class="btn-1">
+                                        Зв'яжіться з нами
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-7">
+                            <div class="img-box">
+                                <img src="{% static 'Website/images/slider-img.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-6 col-lg-7">
-                <div class="img-box">
-                  <img src="images/slider-img.png" alt="">
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
 
-        <div class="carousel-item">
-          <div class="container ">
-            <div class="row">
-              <div class="col-md-6 col-lg-5">
-                <div class="detail-box">
-                  <h1>
-                    Авторемонтний Форум:  <br>
-                    Спільнота Допомоги та Підтримки
-                  </h1>
-                  <p style="text-align: justify">
-                     Приєднуйтесь до нашої спільноти автомобільних експертів та ентузіастів,
-                      яка допомагає у вирішенні проблем з автомобілями. Знайдіть відповіді на свої запитання,
-                      отримайте цінні поради та підтримку в усіх випадках невдач та поломок </p>
-                  <div class="btn-box">
-                    <a href="{% url 'spirit:index' %}" class="btn-1">
-                      Перейти
-                    </a>
-                  </div>
+            <div class="carousel-item">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="detail-box">
+                                <h1>
+                                    Авторемонтний Форум: <br>
+                                    Спільнота Допомоги та Підтримки
+                                </h1>
+                                <p style="text-align: justify">
+                                    Приєднуйтесь до нашої спільноти, яка допомагає у вирішенні проблем з автомобілями.
+                                    Знайдіть відповіді на свої запитання, отримайте цінні поради та підтримку в усіх
+                                    випадках невдач та поломок </p>
+                                <div class="btn-box">
+                                    <a href="{% url 'spirit:index' %}" class="btn-1">
+                                        Перейти
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-7">
+                            <div class="img-box">
+                                <img src="{% static 'Website/images/slider-img.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-6 col-lg-7">
-                <div class="img-box">
-                  <img src="images/slider-img.png" alt="">
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
 
-      </div>
-      <ol class="carousel-indicators">
-        <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-        <li data-target="#customCarousel1" data-slide-to="1"></li>
-      </ol>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#customCarousel1" data-slide-to="1"></li>
+        </ol>
     </div>
-  </section>
-  <!-- end slider section -->
+</section>
+<!-- end slider section -->
 
-  <!-- service section -->
-  <section class="service_section" id="service">
+<!-- service section -->
+<section class="service_section" id="service">
     <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Our Services
-        </h2>
-      </div>
+        <div class="heading_container heading_center">
+            <h2>
+                Наші послуги
+            </h2>
+        </div>
     </div>
     <div class="container ">
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s1.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                General Maintenance
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s2.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Repair and Replacement
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 ">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s3.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Tire Repair and Replacement
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s4.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Wheel Alignment
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s5.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Fuel System Repair
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s6.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Tune Up
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end service section -->
-
-  <!-- about section -->
-  <section class="about_section layout_padding" id="about">
-    <div class="container  ">
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
-            </div>
-            <p>
-              Words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end about section -->
-
-  <!-- why section -->
-  <section class="why_section" id="why" style="padding-bottom: 5%;">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Why Choose Us
-        </h2>
-      </div>
-    </div>
-    <div class="container ">
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/w1.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Best Workers
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto ">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/w2.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Best Materials
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/w3.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Best Service
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end why section -->
-
-  <!-- contact section -->
-  <section class="contact_section layout_padding-bottom" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <div class="heading_container ">
-              <h2>
-                Get In Touch
-              </h2>
-            </div>
-            <form action="#">
-              <div>
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="email" placeholder="Your Email" />
-              </div>
-              <div>
-                <input type="text" placeholder="Your Phone" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box ">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/contact-img.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end contact section -->
-
-  <!-- info section -->
-  <section class="info_section ">
-    <div class="info_container ">
-      <div class="container">
         <div class="row">
-          <div class="col-lg-9">
-            <div class="info_contact ">
-              <div class="row">
-                <div class="col-md-3">
-                  <a href="#" class="link-box">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>
-                      Location
-                    </span>
-                  </a>
-                </div>
-                <div class="col-md-5">
-                  <a href="#" class="link-box">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>
-                      Call +01 1234567890
-                    </span>
-                  </a>
-                </div>
-                <div class="col-md-4">
-                  <a href="#" class="link-box">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>
-                      demo@gmail.com
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5  col-lg-3 mx-auto">
-            <div class="info_form ">
-              <form action="#">
-                <input type="email" placeholder="Enter Your Email" />
-                <button>
-                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="info_logo">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              Motora
-            </span>
-          </a>
-        </div>
-        <div class="social-box">
-          <a href="">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-youtube" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end info section -->
 
-  <!-- footer section -->
-  <footer class="footer_section">
+            <div class="col-md-6 col-lg-4">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/s1.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Загальне обслуговування
+                        </h4>
+                        <p>
+                            Надійне та всебічне загальне обслуговування вашого автомобіля,
+                            щоб забезпечити його безперебійну роботу та тривалу експлуатацію
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/s2.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Ремонт і заміна
+                        </h4>
+                        <p>
+                            Професійний ремонт та якісна заміна деталей для вашого автомобіля,
+                            щоб повернути йому оптимальну роботу та надійність
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 ">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/s3.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Ремонт і заміна шин
+                        </h4>
+                        <p>
+                            Ефективний ремонт і високоякісна заміна шин для вашого автомобіля,
+                            забезпечуючи безпеку та комфорт на дорозі
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/s4.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Вирівнювання коліс
+                        </h4>
+                        <p>
+                            Точне вирівнювання коліс для вашого автомобіля, забезпечуючи рівномірний знос шин,
+                            стабільну керованість та комфортну їзду
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/s5.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Ремонт паливної системи
+                        </h4>
+                        <p>
+                            Професійний ремонт паливної системи вашого автомобіля,
+                            щоб забезпечити ефективне спалювання палива, оптимальну економію та надійну роботу двигуна
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/s6.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Налаштування
+                        </h4>
+                        <p>
+                            Комплексне налаштування вашого автомобіля, включаючи електронні системи, двигун,
+                            паливну систему та інші параметри, для досягнення оптимальної продуктивності,
+                            ефективності та надійності
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- end service section -->
+
+<!-- about section -->
+<section class="about_section layout_padding" id="about">
+    <div class="container  ">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="img-box">
+                    <img src="{% static 'Website/images/about-img.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="detail-box">
+                    <div class="heading_container">
+                        <h2>
+                            Про нас
+                        </h2>
+                    </div>
+                    <p style="text-align: justify">
+                        Ми - професійна команда експертів з автосервісу,
+                        присвячена наданню найвищої якості послуг у ремонті, обслуговуванні та діагностиці автомобілів.
+                        Наша мета - забезпечити задоволення наших клієнтів шляхом надання надійних рішень,
+                        персоналізованого підходу та професійного обслуговування. Відповідальність,
+                        якість та задоволення клієнта - це основні принципи, які ми дотримуємося в нашій роботі </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end about section -->
+
+<!-- why section -->
+<section class="why_section" id="why" style="padding-bottom: 10%;">
     <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
+        <div class="heading_container heading_center">
+            <h2>
+                Чому обирають нас
+            </h2>
+        </div>
     </div>
-  </footer>
-  <!-- footer section -->
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mx-auto">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/w1.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Найкращі працівники
+                        </h4>
+                        <p>
+                            Наші працівники - найкращі експерти з великим досвідом та пристрасністю, що забезпечують
+                            надійність, високу якість та задоволення клієнтів
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mx-auto ">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/w2.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Найкращі матеріали
+                        </h4>
+                        <p>
+                            Ми використовуємо найкращі матеріали, що відповідають найвищим стандартам, забезпечуючи
+                            надійність, ефективність та відмінну якість у всіх аспектах нашої роботи
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mx-auto">
+                <div class="box ">
+                    <div class="img-box">
+                        <img src="{% static 'Website/images/w3.png' %}" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>
+                            Найкращий сервіс
+                        </h4>
+                        <p>
+                            Наш найкращий сервіс забезпечує високе задоволення клієнтів завдяки персоналізованому
+                            підходу, широкому спектру послуг та увазі до деталей, гарантуючи комфорт та задоволення
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end why section -->
 
-  <!-- jQery -->
-  <script src="{% static 'Website/js/jquery-3.4.1.min.js' %}"></script>
-  <!-- bootstrap js -->
-  <script src="{% static 'Website/js/bootstrap.js' %}"></script>
-  <!-- custom js -->
-  <script src="{% static 'Website/js/custom.js' %}"></script>
+<!-- contact section -->
+<section class="contact_section layout_padding-bottom" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form_container">
+                    <div class="heading_container ">
+                        <h2>
+                            Зв'язатися з нами
+                        </h2>
+                    </div>
+                    <form action="#">
+                        <div>
+                            <input type="text" placeholder="Ваше ім'я"/>
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Ваша електронна пошта"/>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Ваш телефон"/>
+                        </div>
+                        <div>
+                            <input type="text" class="message-box" placeholder="Повідомлення"/>
+                        </div>
+                        <div class="btn_box ">
+                            <button>
+                                ВІДПРАВИТИ
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="img-box">
+                    <img src="{% static 'Website/images/contact-img.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact section -->
+
+<!-- info section -->
+<section class="info_section ">
+    <div class="info_container ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="info_contact ">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="#" class="link-box">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        Місцезнаходження
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-5">
+                                <a href="#" class="link-box">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span>
+                                        ТЕЛ : +38(050) 435-20-40
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#" class="link-box">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>
+                                        automatician@gmail.com
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5  col-lg-3 mx-auto">
+                    <div class="info_form ">
+                        <form action="#">
+                            <input type="email" placeholder="Введіть електронну адресу"/>
+                            <button>
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="info_logo">
+                <a class="navbar-brand" href="index.html">
+            <span>
+              АВТОМАЙСТЕР
+            </span>
+                </a>
+            </div>
+            <div class="social-box">
+                <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end info section -->
+
+<!-- footer section -->
+<footer class="footer_section">
+    <div class="container">
+        <p>
+            &copy; <span id="displayYear"></span> АВТОМАЙСТЕР
+        </p>
+    </div>
+</footer>
+<!-- footer section -->
+
+<!-- jQery -->
+<script src="{% static 'Website/js/jquery-3.4.1.min.js' %}"></script>
+<!-- bootstrap js -->
+<script src="{% static 'Website/js/bootstrap.js' %}"></script>
+<!-- custom js -->
+<script src="{% static 'Website/js/custom.js' %}"></script>
 
 
 </body>
