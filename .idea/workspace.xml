@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca223416-b74b-4fbd-a011-c9b3fdb50924" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/Website/static/Website/images/forum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/Website/images/forum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/Website/templates/Website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/Website/templates/Website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

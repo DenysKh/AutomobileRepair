@@ -64,8 +64,6 @@ INSTALLED_APPS = [
     'haystack',
 
     'Website',
-    "debug_toolbar",
-
 ]
 
 MIDDLEWARE = [
