@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca223416-b74b-4fbd-a011-c9b3fdb50924" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
