@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca223416-b74b-4fbd-a011-c9b3fdb50924" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.all.min.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/staticfiles/spirit/stylesheets/styles.css.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +28,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/38068/PycharmProjects/AutomobileRepair/CarRepairWebsite/staticfiles/Website/images",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/38068/PycharmProjects/AutomobileRepair/CarRepairWebsite/staticfiles/Website/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "SQL"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\staticfiles\Website\images" />
