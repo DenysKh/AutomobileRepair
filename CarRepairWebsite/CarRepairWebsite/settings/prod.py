@@ -10,7 +10,7 @@ from .base import *
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # https://docs.djangoproject.com/en/3.2/ref/settings/#admins
 ADMINS = (('John', 'john@example.com'), )
