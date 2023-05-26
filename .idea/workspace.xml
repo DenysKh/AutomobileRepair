@@ -2,7 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca223416-b74b-4fbd-a011-c9b3fdb50924" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/admin/_nav_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/admin/config_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/admin/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/_avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/_editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/_editor_preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/_render_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/moderate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/comment/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/search/_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/search/_render_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/search/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/topic/_render_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/topic/_top_bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/topic/active.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/topic/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/topic/moderate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/topic/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/topic/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/_image_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/_render_comments_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/activation_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/email_change_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/profile_comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/profile_email_change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/profile_likes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/profile_password_change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/profile_topics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/user/profile_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/utils/_form_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/utils/_messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/utils/paginator/_paginator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/utils/paginator/_yt_paginator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/CarRepairWebsite/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/CarRepairWebsite/templates/spirit/_header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +77,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/38068/PycharmProjects/AutomobileRepair/CarRepairWebsite/staticfiles/Website/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/38068/PycharmProjects/AutomobileRepair/CarRepairWebsite/templates/spirit&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -44,12 +88,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\templates\spirit" />
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\staticfiles\Website\images" />
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\Website\static\Website\images" />
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\Website\templates\Website" />
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\Website\static\Website" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\templates" />
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\Website\static\Website\images" />
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\staticfiles\Website\images" />
       <recent name="C:\Users\38068\PycharmProjects\AutomobileRepair\CarRepairWebsite\staticfiles" />
