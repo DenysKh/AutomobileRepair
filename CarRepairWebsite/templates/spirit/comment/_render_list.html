@@ -88,15 +88,15 @@
         {% if user.is_authenticated %}
           {% if user.st.is_moderator %}
             <li><a class="js-post" href="{% url "spirit:comment:delete" c.pk %}"
-            ><i class="fa fa-trash"></i> {% trans "delete" %}</a></li>
+            ><i class="fa fa-trash"></i> видалити</a></li>
           {% endif %}
 
           <li><a href="{% url "spirit:comment:flag:create" c.pk %}"
-          ><i class="fa fa-flag"></i> {% trans "report" %}</a></li>
+          ><i class="fa fa-flag"></i> звіт</a></li>
         {% endif %}
 
         <li><a class="js-tab" href="#" data-related=".js-share-{{ c.pk }}"
-        ><i class="fa fa-share-alt"></i> {% trans "share" %}</a></li>
+        ><i class="fa fa-share-alt"></i> поділитись</a></li>
 
         {% if user.is_authenticated %}
           {% if c.like %}
@@ -104,14 +104,14 @@
               class="js-like"
               href="{% url "spirit:comment:like:delete" c.like.pk %}"
               data-count="{{ c.likes_count }}"
-            ><i class="fa fa-heart"></i> {% trans "remove like" %} ({{ c.likes_count }})</a></li>
+            ><i class="fa fa-heart"></i> забрати подобається ({{ c.likes_count }})</a></li>
           {% else %}
             {% if c.user.pk != user.pk  %}
               <li class="comment-like"><a
                 class="js-like like"
                 href="{% url "spirit:comment:like:create" c.pk %}"
                 data-count="{{ c.likes_count }}"
-              ><i class="fa fa-heart"></i> {% trans "like" %} ({{ c.likes_count }})</a></li>
+              ><i class="fa fa-heart"></i> подобається ({{ c.likes_count }})</a></li>
             {% else %}
               <li class="comment-like"><i class="fa fa-heart"></i> ({{ c.likes_count }})</li>
             {% endif %}
@@ -119,14 +119,14 @@
 
           {% if user.st.is_moderator or c.user.pk == user.pk %}
             <li><a href="{% url "spirit:comment:update" pk=c.pk %}"
-            >{% trans "edit" %}</a></li>
+            >редагування</a></li>
           {% endif %}
 
           {% if c.user.pk != user.pk %}
             <li><a href="{% url "spirit:comment:publish" topic_id=topic.pk pk=c.pk %}"
-            >{% trans "quote" %}</a></li>
+            >цитата</a></li>
             <li><a href="#reply" class="js-reply-button" data="@{{ c.user.username }}"
-            >{% trans "reply" %}</a></li>
+            >відповідь</a></li>
           {% endif %}
         {% endif %}
       </ul>
